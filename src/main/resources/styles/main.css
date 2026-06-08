@@ -1,0 +1,27 @@
+.root { -fx-background-color: #0f0f1a; -fx-font-family: "Segoe UI", sans-serif; }
+
+.sidebar { -fx-background-color: #13132a; -fx-border-color: #2a2a4a; -fx-border-width: 0 1 0 0; }
+.sidebar-header { -fx-padding: 16px; -fx-border-color: #2a2a4a; -fx-border-width: 0 0 1 0; }
+.sidebar-logo { -fx-font-size: 15px; -fx-font-weight: bold; -fx-text-fill: #7f77dd; }
+
+.nav-btn { -fx-background-color: transparent; -fx-text-fill: #888; -fx-font-size: 13px; -fx-alignment: CENTER_LEFT; -fx-padding: 8 16; -fx-border-width: 0; -fx-cursor: hand; }
+.nav-btn:hover { -fx-background-color: #1e1e3f; -fx-text-fill: #ccc; }
+.nav-btn-active { -fx-background-color: #1e1e3f; -fx-text-fill: #afa9ec; -fx-border-color: #7f77dd; -fx-border-width: 0 0 0 2; }
+.nav-btn-danger { -fx-text-fill: #e24b4a; }
+.nav-btn-danger:hover { -fx-text-fill: #f09595; }
+
+.toolbar { -fx-background-color: #0f0f1a; -fx-padding: 12px 16px; -fx-border-color: #2a2a4a; -fx-border-width: 0 0 1 0; }
+.search-field { -fx-background-color: #1a1a2e; -fx-text-fill: #ccc; -fx-prompt-text-fill: #555; -fx-border-color: #2a2a4a; -fx-border-radius: 6; -fx-background-radius: 6; -fx-padding: 6 12; }
+
+.btn-primary { -fx-background-color: #534ab7; -fx-text-fill: #eeedfe; -fx-border-color: #7f77dd; -fx-border-radius: 6; -fx-background-radius: 6; -fx-cursor: hand; }
+.btn-primary:hover { -fx-background-color: #7f77dd; }
+.btn-secondary { -fx-background-color: transparent; -fx-text-fill: #afa9ec; -fx-border-color: #534ab7; -fx-border-radius: 6; -fx-background-radius: 6; -fx-cursor: hand; }
+.btn-secondary:hover { -fx-background-color: #1e1e3f; }
+
+.main-table { -fx-background-color: #0f0f1a; -fx-border-width: 0; }
+.main-table .column-header { -fx-background-color: #0f0f1a; -fx-text-fill: #555; -fx-font-size: 11px; }
+.main-table .table-row-cell { -fx-background-color: #0f0f1a; -fx-text-fill: #ccc; -fx-border-color: #1a1a2e; }
+.main-table .table-row-cell:hover { -fx-background-color: #13132a; }
+
+.status-bar { -fx-background-color: #0a0a14; -fx-padding: 6 16; -fx-border-color: #2a2a4a; -fx-border-width: 1 0 0 0; }
+.status-text { -fx-font-size: 11px; -fx-text-fill: #444; }
